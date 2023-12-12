@@ -1,0 +1,334 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ru' Physical Memory: 24423 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/РЎР°С€Р°/Swamp Attack
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62295
+Successfully changed project path to: C:/РЎР°С€Р°/Swamp Attack
+C:/РЎР°С€Р°/Swamp Attack
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15968] Host "[IP] 192.168.0.205 [Port] 0 [Flags] 2 [Guid] 3128296283 [EditorId] 3128296283 [Version] 1048832 [Id] WindowsEditor(7,RECEPTION1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15968] Host "[IP] 192.168.0.205 [Port] 0 [Flags] 2 [Guid] 3128296283 [EditorId] 3128296283 [Version] 1048832 [Id] WindowsEditor(7,RECEPTION1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 7.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/РЎР°С€Р°/Swamp Attack/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4019 MB
+    Driver:   30.0.14.7168
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006650 seconds.
+- Loaded All Assemblies, in  0.341 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 510 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.814 seconds
+Domain Reload Profiling: 1153ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (814ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (757ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (612ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.670 seconds
+Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.585 seconds
+Domain Reload Profiling: 1253ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (444ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (153ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (586ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (415ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (245.4 KB). Loaded Objects now: 4475.
+Memory consumption went from 148.2 MB to 148.0 MB.
+Total: 3.760500 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.281600 ms MarkObjects: 2.921400 ms  DeleteObjects: 0.214600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 277075.126663 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/BlueButtonPressed.png
+  artifactKey: Guid(ee0825126ef996141b7f67f8b96f3077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/BlueButtonPressed.png using Guid(ee0825126ef996141b7f67f8b96f3077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc9e12d29dd02f248a8eb76306598aa') in 0.070265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/DialogueBox.png
+  artifactKey: Guid(83233739e7d255141ae27b6e3f4d3b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/DialogueBox.png using Guid(83233739e7d255141ae27b6e3f4d3b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea89d66e4d0edf7f2a5c9fd42684ccec') in 0.022579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/VolumeBar.png
+  artifactKey: Guid(afabfdac77d5e16449d2ac0f0a8e0177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/VolumeBar.png using Guid(afabfdac77d5e16449d2ac0f0a8e0177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a99ccfb8fe19dfd6a19cbe14a7a65c0') in 0.017303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/EmptyScoreBar.png
+  artifactKey: Guid(417e16f243f24654b9c20ce9e2091a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/EmptyScoreBar.png using Guid(417e16f243f24654b9c20ce9e2091a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c68eec4c1bf8ce5dfec94ba625af0d') in 0.019089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/RedTitle.png
+  artifactKey: Guid(1ddc723d40409954ca000ff8cf59496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/RedTitle.png using Guid(1ddc723d40409954ca000ff8cf59496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a418c7b1ab38ab31a041269f0f99da53') in 0.016045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/FullHealthBar.png
+  artifactKey: Guid(330928384ba1a224bb03b9221a068920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/FullHealthBar.png using Guid(330928384ba1a224bb03b9221a068920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c7fbb61b6bc0134dad8393e4e6afbf') in 0.013516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/SwitchContainer.png
+  artifactKey: Guid(5a76631c7881ca143be042348c408373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/SwitchContainer.png using Guid(5a76631c7881ca143be042348c408373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cd3901652daa77cbbf04763774bb98') in 0.015029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/VolumeSlider.png
+  artifactKey: Guid(ea5e461c83d27af4f8c0ba7086d7da09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/VolumeSlider.png using Guid(ea5e461c83d27af4f8c0ba7086d7da09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44db3d217508af6b1c589afc86ccb089') in 0.017622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/CloseButton.png
+  artifactKey: Guid(2208c23118befed4aabd945fe075a75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/CloseButton.png using Guid(2208c23118befed4aabd945fe075a75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904de4547a4141625f397286cdd98a53') in 0.016529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/RedButtonPressed.png
+  artifactKey: Guid(199971f871f743b40a724c2ff223ecf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/RedButtonPressed.png using Guid(199971f871f743b40a724c2ff223ecf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ac9e59fa96bfd5318ecbbd907cff29') in 0.019252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/TickIcon.png
+  artifactKey: Guid(886047b1529889e4f82bbbce7ac49a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/TickIcon.png using Guid(886047b1529889e4f82bbbce7ac49a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9fa521be55b96f3288562e57add054') in 0.020640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/EmptyStar.png
+  artifactKey: Guid(44c745ed130add342be3a486ca7961cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/EmptyStar.png using Guid(44c745ed130add342be3a486ca7961cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd85459fc6a3c26d5ccb27d5c33d7162') in 0.013802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/LargeBackground.png
+  artifactKey: Guid(cce5ad86b02744148be66f668f5ef1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/LargeBackground.png using Guid(cce5ad86b02744148be66f668f5ef1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc3c06c7f23ccaa5d220fc38893629e') in 0.034127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/SettingsBackground.png
+  artifactKey: Guid(7343e979d2597e44e993e4aad7c444ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/SettingsBackground.png using Guid(7343e979d2597e44e993e4aad7c444ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2699075146e23b2762b3b9b877bb420c') in 0.016685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/SaveSlot.png
+  artifactKey: Guid(66db866ee2d36084bb873c1c2944be80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/SaveSlot.png using Guid(66db866ee2d36084bb873c1c2944be80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aea1a6a674db28c0cf90e1f27e3f476') in 0.014696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/SaveSlotSeletcor.png
+  artifactKey: Guid(f1ec1db4db013ca44ab3cbe0bab00956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/PaperUIKit/Pngs/SaveSlotSeletcor.png using Guid(f1ec1db4db013ca44ab3cbe0bab00956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014237e72f15832cba9c94e359c0d00d') in 0.015495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.316244 seconds.
+  path: Assets/Sprits/SwampAttackAsset/Forest/Extension_green.png
+  artifactKey: Guid(2429118af91532447a27b8d597a2caf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/Forest/Extension_green.png using Guid(2429118af91532447a27b8d597a2caf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e786194edd079a164f127672ead25c') in 0.015139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprits/SwampAttackAsset/Forest/Tileset.png
+  artifactKey: Guid(76bcecd956b0fbd4f8a924893f1d5bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/Forest/Tileset.png using Guid(76bcecd956b0fbd4f8a924893f1d5bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7f984d90d2c998ce9b1ec2b8d4a7f1') in 0.018705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
