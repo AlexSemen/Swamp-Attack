@@ -6,6 +6,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] private float _speed;
+    [SerializeField] private int _damage;
 
     private Rigidbody2D _rigidbody2D;
 
@@ -17,5 +18,15 @@ public class Bullet : MonoBehaviour
     private void Start()
     {
         _rigidbody2D.velocity = Vector2.left * _speed;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent<Enemy>(out Enemy enemy))
+        {
+            enemy.TakeDamage(_damage);
+        }
+
+        Destroy(gameObject);
     }
 }

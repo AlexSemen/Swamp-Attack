@@ -378,8 +378,19 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/AnimatorPlayer.cs"
 "Assets/Scripts/Bullet.cs"
+"Assets/Scripts/Enemy/AnimatorEnemy.cs"
+"Assets/Scripts/Enemy/Enemy.cs"
+"Assets/Scripts/Enemy/State Machine/EnemyStateMachine.cs"
+"Assets/Scripts/Enemy/State Machine/State.cs"
+"Assets/Scripts/Enemy/State Machine/State/AttackState.cs"
+"Assets/Scripts/Enemy/State Machine/State/CelebrationState.cs"
+"Assets/Scripts/Enemy/State Machine/State/MoveState.cs"
+"Assets/Scripts/Enemy/State Machine/Transitions/DistanceTransition.cs"
+"Assets/Scripts/Enemy/State Machine/Transitions/TargetDieNeetTransition.cs"
+"Assets/Scripts/Enemy/State Machine/Transitions/Transition.cs"
 "Assets/Scripts/Player.cs"
-"Assets/Scripts/ScriptObjects/Weapons/Weapon.cs"
+"Assets/Scripts/Weapons/Rifle.cs"
+"Assets/Scripts/Weapons/Weapon.cs"
 -langversion:9.0
 
 /deterministic

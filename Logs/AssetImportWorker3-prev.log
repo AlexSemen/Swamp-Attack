@@ -15,7 +15,7 @@ C:/РЎР°С€Р°/Swamp Attack
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-62295
+61130
 Successfully changed project path to: C:/РЎР°С€Р°/Swamp Attack
 C:/РЎР°С€Р°/Swamp Attack
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/РЎР°С€Р°/Swamp Attack
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [43492] Host "[IP] 192.168.0.205 [Port] 0 [Flags] 2 [Guid] 357852269 [EditorId] 357852269 [Version] 1048832 [Id] WindowsEditor(7,RECEPTION1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [36560] Host "[IP] 192.168.0.205 [Port] 0 [Flags] 2 [Guid] 1592539041 [EditorId] 1592539041 [Version] 1048832 [Id] WindowsEditor(7,RECEPTION1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [43492] Host "[IP] 192.168.0.205 [Port] 0 [Flags] 2 [Guid] 357852269 [EditorId] 357852269 [Version] 1048832 [Id] WindowsEditor(7,RECEPTION1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [36560] Host "[IP] 192.168.0.205 [Port] 0 [Flags] 2 [Guid] 1592539041 [EditorId] 1592539041 [Version] 1048832 [Id] WindowsEditor(7,RECEPTION1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 8.85 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007832 seconds.
-- Loaded All Assemblies, in  0.417 seconds
+Registered in 0.006237 seconds.
+- Loaded All Assemblies, in  0.332 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 470 ms
+Android Extension - Scanning For ADB Devices 471 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.833 seconds
-Domain Reload Profiling: 1249ms
-	BeginReloadAssembly (119ms)
+- Finished resetting the current domain, in  0.766 seconds
+Domain Reload Profiling: 1097ms
+	BeginReloadAssembly (95ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (117ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (94ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (175ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (155ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (123ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (834ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (766ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (762ms)
+		SetupLoadedEditorAssemblies (712ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (585ms)
+			InitializePlatformSupportModulesInManaged (570ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (117ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 1249ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.689 seconds
-Refreshing native plugins compatible for Editor in 3.58 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.568 seconds
+Refreshing native plugins compatible for Editor in 3.38 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.566 seconds
-Domain Reload Profiling: 1250ms
-	BeginReloadAssembly (170ms)
+- Finished resetting the current domain, in  0.562 seconds
+Domain Reload Profiling: 1128ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (392ms)
-		LoadAssemblies (325ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (353ms)
+		LoadAssemblies (257ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (128ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (127ms)
 			ScanForSourceGeneratedMonoScriptInfo (20ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (566ms)
+	FinalizeReload (562ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (415ms)
+		SetupLoadedEditorAssemblies (408ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadAttributes (281ms)
 			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.44 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4017 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (245.2 KB). Loaded Objects now: 4476.
-Memory consumption went from 148.3 MB to 148.0 MB.
-Total: 3.638900 ms (FindLiveObjects: 0.334500 ms CreateObjectMapping: 0.267400 ms MarkObjects: 2.834000 ms  DeleteObjects: 0.201600 ms)
+Unloading 70 unused Assets / (245.5 KB). Loaded Objects now: 4476.
+Memory consumption went from 148.2 MB to 148.0 MB.
+Total: 3.191200 ms (FindLiveObjects: 0.302900 ms CreateObjectMapping: 0.262800 ms MarkObjects: 2.429800 ms  DeleteObjects: 0.194700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,6 +183,38 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 333136.189928 seconds.
+  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Shoot01/Shoot01_02.png
+  artifactKey: Guid(bb0342f4c7fd59d41bf40f1708508438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Shoot01/Shoot01_02.png using Guid(bb0342f4c7fd59d41bf40f1708508438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4912beeb026157af28a13371e605a75') in 0.068117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Shoot01/Shoot01_03.png
+  artifactKey: Guid(57ecc4d7b1d6680468aa11c7bd7e00f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Shoot01/Shoot01_03.png using Guid(57ecc4d7b1d6680468aa11c7bd7e00f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a07409ca3790cbc67995697c76d24b') in 0.019123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 36.270640 seconds.
+  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Shoot01/Shoot01_03.png
+  artifactKey: Guid(57ecc4d7b1d6680468aa11c7bd7e00f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Shoot01/Shoot01_03.png using Guid(57ecc4d7b1d6680468aa11c7bd7e00f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8c5b2c257e9e9697bbf362bf072120') in 0.012168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Shoot01/Shoot01_05.png
+  artifactKey: Guid(dbedacfda94f2d741918ac5cae6db4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Shoot01/Shoot01_05.png using Guid(dbedacfda94f2d741918ac5cae6db4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee80b2d9898b49d6f63bbebf998b584') in 0.011941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
 AssetImportWorker is now disconnected from the server
