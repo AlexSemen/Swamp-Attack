@@ -7,10 +7,12 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private int _health;
     [SerializeField] private int _reward;
-    [SerializeField] private Player _target;
+   
     [SerializeField] private bool _isAttack;
 
     public event UnityAction Dying;
+    [SerializeField] private Player _target;
+
     public Player Target => _target;
     public bool IsAttack => _isAttack;
 
@@ -24,8 +26,8 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void Update()
+    public void Init(Player player)
     {
-
+        _target = player;
     }
 }

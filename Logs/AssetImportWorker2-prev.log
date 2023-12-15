@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ru' Physical Memory: 24423 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 12239 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/РЎР°С€Р°/Swamp Attack
+D:/Unity/Swamp-Attack
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-61130
-Successfully changed project path to: C:/РЎР°С€Р°/Swamp Attack
-C:/РЎР°С€Р°/Swamp Attack
+61934
+Successfully changed project path to: D:/Unity/Swamp-Attack
+D:/Unity/Swamp-Attack
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,68 +49,68 @@ C:/РЎР°С€Р°/Swamp Attack
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20012] Host "[IP] 192.168.0.205 [Port] 0 [Flags] 2 [Guid] 3563073014 [EditorId] 3563073014 [Version] 1048832 [Id] WindowsEditor(7,RECEPTION1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25832] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1381110281 [EditorId] 1381110281 [Version] 1048832 [Id] WindowsEditor(7,WIN-4LVBF6F6972) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20012] Host "[IP] 192.168.0.205 [Port] 0 [Flags] 2 [Guid] 3563073014 [EditorId] 3563073014 [Version] 1048832 [Id] WindowsEditor(7,RECEPTION1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25832] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1381110281 [EditorId] 1381110281 [Version] 1048832 [Id] WindowsEditor(7,WIN-4LVBF6F6972) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 7.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 18.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/РЎР°С€Р°/Swamp Attack/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/Swamp-Attack/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2544)
     Vendor:   NVIDIA
-    VRAM:     4019 MB
-    Driver:   30.0.14.7168
+    VRAM:     8050 MB
+    Driver:   31.0.15.4592
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005993 seconds.
-- Loaded All Assemblies, in  0.321 seconds
+Registered in 0.006805 seconds.
+- Loaded All Assemblies, in  0.493 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 453 ms
+Android Extension - Scanning For ADB Devices 384 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.750 seconds
-Domain Reload Profiling: 1070ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.754 seconds
+Domain Reload Profiling: 1246ms
+	BeginReloadAssembly (190ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (90ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (176ms)
+		LoadAssemblies (189ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (157ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (750ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (754ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (693ms)
+		SetupLoadedEditorAssemblies (688ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (552ms)
+			InitializePlatformSupportModulesInManaged (510ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (92ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 1070ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.563 seconds
-Refreshing native plugins compatible for Editor in 3.44 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.905 seconds
+Refreshing native plugins compatible for Editor in 6.47 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,51 +127,50 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.568 seconds
-Domain Reload Profiling: 1129ms
-	BeginReloadAssembly (135ms)
+- Finished resetting the current domain, in  0.912 seconds
+Domain Reload Profiling: 1816ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (344ms)
-		LoadAssemblies (251ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (609ms)
+		LoadAssemblies (445ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (167ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (125ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (568ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (216ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (913ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (417ms)
+		SetupLoadedEditorAssemblies (659ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (286ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (456ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.41 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 3.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4017 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (245.5 KB). Loaded Objects now: 4476.
-Memory consumption went from 148.3 MB to 148.0 MB.
-Total: 3.547400 ms (FindLiveObjects: 0.305300 ms CreateObjectMapping: 0.225000 ms MarkObjects: 2.812600 ms  DeleteObjects: 0.203700 ms)
+Unloading 4047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (245.4 KB). Loaded Objects now: 4507.
+Memory consumption went from 152.6 MB to 152.4 MB.
+Total: 4.762400 ms (FindLiveObjects: 0.405000 ms CreateObjectMapping: 0.126100 ms MarkObjects: 3.903200 ms  DeleteObjects: 0.323200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -183,374 +182,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 332293.005028 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(2c4d77bfadcec194bb50d82013b3cda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(2c4d77bfadcec194bb50d82013b3cda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916c08e7ea8d9923725b0a09dd30e366') in 0.002738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 24.717427 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/HitGun01
-  artifactKey: Guid(2ac12f112d436c14fa3b21a2187f6555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/HitGun01 using Guid(2ac12f112d436c14fa3b21a2187f6555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e52d5962d96244ae173994ff5b01916') in 0.000547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.151683 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/HitGun01/HitGun01_01.png
-  artifactKey: Guid(7c7a741d4688e724583c8869b63d3cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/HitGun01/HitGun01_01.png using Guid(7c7a741d4688e724583c8869b63d3cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75b8d3d322f7287e297df2fc72515a9') in 0.146986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 24.864352 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose01
-  artifactKey: Guid(12549957b609d224c921329f5031c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose01 using Guid(12549957b609d224c921329f5031c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd51aaec051b0ab3798f57c8c02215d1') in 0.000640 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.072919 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose01/IdlePose01_01.png
-  artifactKey: Guid(3d34e36ceb702b947992840f924cc893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose01/IdlePose01_01.png using Guid(3d34e36ceb702b947992840f924cc893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c099027c3c93c9bd77c8f104253fd0') in 0.013111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose01/IdlePose01_04.png
-  artifactKey: Guid(766c692849593db458ac394c72a32f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose01/IdlePose01_04.png using Guid(766c692849593db458ac394c72a32f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4185a43b8e1a2f2a29ebfab90e69a6cb') in 0.011668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.991160 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02
-  artifactKey: Guid(4c6c7a7c06e78a54f82c09512781be56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02 using Guid(4c6c7a7c06e78a54f82c09512781be56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64eaeb2b84ab524b44ee2ea66369b5e') in 0.000579 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.157622 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_01.png
-  artifactKey: Guid(917dc86f83bdf9a449246f9e59f0735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_01.png using Guid(917dc86f83bdf9a449246f9e59f0735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e660acd52b0e7237655efef1ba11f12') in 0.010974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_12.png
-  artifactKey: Guid(52d68d4d39a9acc4aa29b787fb0453da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_12.png using Guid(52d68d4d39a9acc4aa29b787fb0453da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e166733c884b52ccf350fed3e34493') in 0.012659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_16.png
-  artifactKey: Guid(dac9c514e3c3510498cae54f04b0581b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_16.png using Guid(dac9c514e3c3510498cae54f04b0581b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd29d7c6f0f5bbdc7b86df38dc38d48') in 0.011111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_10.png
-  artifactKey: Guid(b808db84344d1ba4c9ef5b9491ac8f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_10.png using Guid(b808db84344d1ba4c9ef5b9491ac8f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6054c50f900308536105afdca991880') in 0.011822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_11.png
-  artifactKey: Guid(2dcee5730519746429accffb26e1e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_11.png using Guid(2dcee5730519746429accffb26e1e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86bf5478474f0023febc05f7c5889b0') in 0.012882 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_06.png
-  artifactKey: Guid(ed9fb282c543bd64f8def4bd81b8dda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_06.png using Guid(ed9fb282c543bd64f8def4bd81b8dda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f99fd0cc1ff363b6136c0a7b0912e61') in 0.011885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_14.png
-  artifactKey: Guid(f3a9a64b6bedd77448d91f413558ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_14.png using Guid(f3a9a64b6bedd77448d91f413558ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068300cda0394b33356fc3bd6b6dcd73') in 0.011667 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.174991 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Pose01ToPose02
-  artifactKey: Guid(bc6f839759cfd514b94dfac84ee80952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Pose01ToPose02 using Guid(bc6f839759cfd514b94dfac84ee80952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecb2faeb4c5328a2be0c1922825bc0e') in 0.000622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.189224 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Pose01ToPose02/Pose01ToPose02_01.png
-  artifactKey: Guid(d4dc65ef271b56c4b9dbe003b2bb6fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Pose01ToPose02/Pose01ToPose02_01.png using Guid(d4dc65ef271b56c4b9dbe003b2bb6fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c56f9618a63a7503bb3d9a64e590395') in 0.017479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Pose01ToPose02/Pose01ToPose02_07.png
-  artifactKey: Guid(d4e042f023b9c104f9d9f4673d0633c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/Pose01ToPose02/Pose01ToPose02_07.png using Guid(d4e042f023b9c104f9d9f4673d0633c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce7ccc17427e02aaea24c044c3d987e') in 0.015009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 25.322125 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose01/IdlePose01_01.png
-  artifactKey: Guid(3d34e36ceb702b947992840f924cc893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose01/IdlePose01_01.png using Guid(3d34e36ceb702b947992840f924cc893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921778c098a4f864a63602bd93ca9c16') in 0.011194 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001414 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose01/IdlePose01_02.png
-  artifactKey: Guid(364bb953d5ff2c641acd615ba3f7a591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose01/IdlePose01_02.png using Guid(364bb953d5ff2c641acd615ba3f7a591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385156a919602c7c23fa5f0f6236bce3') in 0.014576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 22.126039 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_01.png
-  artifactKey: Guid(917dc86f83bdf9a449246f9e59f0735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_01.png using Guid(917dc86f83bdf9a449246f9e59f0735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce30b88f6ba78e6604d749f70bf35e28') in 0.013812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.005609 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_02.png
-  artifactKey: Guid(f98cb32bc725bee409b4f0fea0a3f57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_02.png using Guid(f98cb32bc725bee409b4f0fea0a3f57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be09b6ee5c8543de60e70902d2c6a269') in 0.015837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_12.png
-  artifactKey: Guid(52d68d4d39a9acc4aa29b787fb0453da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_12.png using Guid(52d68d4d39a9acc4aa29b787fb0453da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd1b4c3cafd3f3ad08a5601dc5ab9c6') in 0.026016 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_05.png
-  artifactKey: Guid(b12ffafbdd069e24195b4b94ef887e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_05.png using Guid(b12ffafbdd069e24195b4b94ef887e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612060b64b5ffc51b140831c1a718f98') in 0.026010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_11.png
-  artifactKey: Guid(2dcee5730519746429accffb26e1e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_11.png using Guid(2dcee5730519746429accffb26e1e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea15c873a7005b43b4deab5c60b8f298') in 0.020967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_15.png
-  artifactKey: Guid(fadcb3a6d2d563941b5e44e0f06a2059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_15.png using Guid(fadcb3a6d2d563941b5e44e0f06a2059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b97d4973a53a339238eeca5b71920f7') in 0.020387 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_14.png
-  artifactKey: Guid(f3a9a64b6bedd77448d91f413558ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdlePose02/IdlePose02_14.png using Guid(f3a9a64b6bedd77448d91f413558ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5da67dc19462af6124cccbf38940269') in 0.015701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 12.471177 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01
-  artifactKey: Guid(233f2757ff7216d4f82a73eaffd33551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01 using Guid(233f2757ff7216d4f82a73eaffd33551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a874c9cf759f86608da59b11e79537') in 0.000523 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.230451 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_01.png
-  artifactKey: Guid(c8649fbbcc189694eb390943917182d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_01.png using Guid(c8649fbbcc189694eb390943917182d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354963558ff80df5028ae7c08fb10399') in 0.012610 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_10.png
-  artifactKey: Guid(f663ff8d760c23746bd649e8bf9d82dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_10.png using Guid(f663ff8d760c23746bd649e8bf9d82dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb66b3e9577c816259f1bf03260ed0a') in 0.014088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_20.png
-  artifactKey: Guid(b54a926ecfd76ae4bac5609e2a8ac47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_20.png using Guid(b54a926ecfd76ae4bac5609e2a8ac47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f8a0586f8004eb0f45f37e29447476') in 0.021803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_04.png
-  artifactKey: Guid(a38d8f2417dbdec4da8bf866da44a606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_04.png using Guid(a38d8f2417dbdec4da8bf866da44a606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c601e052d9df10e8570b35c9b9a1df0') in 0.020800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_18.png
-  artifactKey: Guid(b30fb1f9715175b4ca88acc6bbd5bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_18.png using Guid(b30fb1f9715175b4ca88acc6bbd5bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3024e5da72f7816639e874b68bf6246b') in 0.023189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_15.png
-  artifactKey: Guid(ede53160682ddc74fb1127ecfbd88d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_15.png using Guid(ede53160682ddc74fb1127ecfbd88d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cd8f73cf02ba8c9d5f131367370f36') in 0.029769 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_07.png
-  artifactKey: Guid(cb8f063ddcbbc6c4c8e1bb3d6f2b9b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_07.png using Guid(cb8f063ddcbbc6c4c8e1bb3d6f2b9b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad545bfb8e2f765198f5e6adfd439c9') in 0.009861 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 353.388976 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_01.png
-  artifactKey: Guid(c8649fbbcc189694eb390943917182d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_01.png using Guid(c8649fbbcc189694eb390943917182d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3256ec89981768ab02603b2af107a47') in 0.013122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 55.224298 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_01.png
-  artifactKey: Guid(c8649fbbcc189694eb390943917182d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_01.png using Guid(c8649fbbcc189694eb390943917182d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3baa0f7a998356dc5657909a1a073c19') in 0.011601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 48.567434 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_01.png
-  artifactKey: Guid(c8649fbbcc189694eb390943917182d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_01.png using Guid(c8649fbbcc189694eb390943917182d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3531f685e3f0632082581ce12908ae8f') in 0.011209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 33.357236 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_02.png
-  artifactKey: Guid(986d31a736e6980409f496b4af3c183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_02.png using Guid(986d31a736e6980409f496b4af3c183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309221e0162310e9f73b617770220e7b') in 0.011031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.007180 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_03.png
-  artifactKey: Guid(8ab4b3a4f17db8140a12b0f85e8520c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_03.png using Guid(8ab4b3a4f17db8140a12b0f85e8520c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0e213758733eceba008b9b0ef957c4') in 0.010865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.048331 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_05.png
-  artifactKey: Guid(73a794c9b5bb0294b8e0b465b74a370a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_05.png using Guid(73a794c9b5bb0294b8e0b465b74a370a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f1ba660227d7c56dcce97e82bc663a') in 0.014968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_13.png
-  artifactKey: Guid(31758a360729db44382b5ab554865097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_13.png using Guid(31758a360729db44382b5ab554865097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95bcabb11d9e2a6ba0c9f1b3309a243') in 0.024597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_19.png
-  artifactKey: Guid(c2d6998166fe58f4f948f779234ef3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_19.png using Guid(c2d6998166fe58f4f948f779234ef3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c73a2cde1559d073383753968f292a') in 0.018226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_14.png
-  artifactKey: Guid(6200632ccc99efe419fa9a6c2e7784db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_14.png using Guid(6200632ccc99efe419fa9a6c2e7784db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e390e94859a69eda6add0e57f4d483a') in 0.021332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_18.png
-  artifactKey: Guid(b30fb1f9715175b4ca88acc6bbd5bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_18.png using Guid(b30fb1f9715175b4ca88acc6bbd5bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368028c33f8f4cb419f16adac4b64e6d') in 0.021467 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_09.png
-  artifactKey: Guid(a686778503f36a54ca8c55fbecbcdcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_09.png using Guid(a686778503f36a54ca8c55fbecbcdcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc6530793aa4eaf35312aded701e229') in 0.011239 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_08.png
-  artifactKey: Guid(71632e0aeb18e614fa9c3e2b119790de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprits/SwampAttackAsset/CartoonViking/CartoonViking/IdleGun01/IdleGun01_08.png using Guid(71632e0aeb18e614fa9c3e2b119790de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc2fdda9bfd1ad16b676a14298bcba3') in 0.017840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
 AssetImportWorker is now disconnected from the server

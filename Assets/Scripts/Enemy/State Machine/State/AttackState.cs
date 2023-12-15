@@ -35,7 +35,7 @@ public class AttackState : State
 
     public void DoDamage()
     {
-        if (Vector2.Distance(transform.position, _target.transform.position) < _distanceAttack)
+        if (_target != null && Vector2.Distance(transform.position, _target.transform.position) < _distanceAttack)
         {
             _target.TakeDamage(_damage);
         }

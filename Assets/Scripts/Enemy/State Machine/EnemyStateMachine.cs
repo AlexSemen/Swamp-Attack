@@ -13,11 +13,6 @@ public class EnemyStateMachine : MonoBehaviour
 
     public State Current => _currentState;
 
-    private void Awake()
-    {
-        _target = GetComponent<Enemy>().Target;
-    }
-
     private void Start()
     {
         Reset();
@@ -26,7 +21,10 @@ public class EnemyStateMachine : MonoBehaviour
     private void Update()
     {
         if (_currentState == null)
+        {
+            Reset();
             return;
+        }
 
         if(_currentState.TryGetNewState(out _newState))
         {
@@ -36,7 +34,9 @@ public class EnemyStateMachine : MonoBehaviour
 
     private void Reset()
     {
-        if (_firstState != null)
+        _target = GetComponent<Enemy>().Target;
+
+        if (_firstState != null && _target != null)
         {
             _currentState = _firstState;
             _currentState.Enter(_target);

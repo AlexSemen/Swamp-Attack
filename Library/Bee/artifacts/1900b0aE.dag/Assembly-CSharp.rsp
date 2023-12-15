@@ -389,6 +389,10 @@
 "Assets/Scripts/Enemy/State Machine/Transitions/TargetDieNeetTransition.cs"
 "Assets/Scripts/Enemy/State Machine/Transitions/Transition.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/Spawner/Spawner.cs"
+"Assets/Scripts/UI/Bar.cs"
+"Assets/Scripts/UI/IBarChanged.cs"
+"Assets/Scripts/UI/NextWave.cs"
 "Assets/Scripts/Weapons/Rifle.cs"
 "Assets/Scripts/Weapons/Weapon.cs"
 -langversion:9.0
