@@ -15,11 +15,13 @@ public class Player : MonoBehaviour, IBarChanged
     private Animator _animator;
 
     public event UnityAction<int, int> BarChanged;
+    //public event UnityAction<int> MoneyChanged;
 
     public int Money { get; private set; }
 
     private void Awake()
     {
+        Money = 500;
         _health = _healthMax;
         _isAttack = false;
         _animator = GetComponent<Animator>();
@@ -53,13 +55,27 @@ public class Player : MonoBehaviour, IBarChanged
         BarChanged.Invoke(_health, _healthMax);
 
         if (_health <= 0) 
-        { 
+        {
             Destroy(gameObject);
         }
     }
 
-    private void OnEnemyDying(int reward)
+    public void TakeMoney(int money)
     {
-        Money += reward;
+        Money += money;
+    }
+
+    public bool TryGiveMoney(int money)
+    {
+        if (Money >= money)
+        {
+            Money -= money;
+
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }

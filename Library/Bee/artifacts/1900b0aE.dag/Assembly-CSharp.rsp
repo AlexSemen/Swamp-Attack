@@ -392,7 +392,10 @@
 "Assets/Scripts/Spawner/Spawner.cs"
 "Assets/Scripts/UI/Bar.cs"
 "Assets/Scripts/UI/IBarChanged.cs"
+"Assets/Scripts/UI/Menu.cs"
 "Assets/Scripts/UI/NextWave.cs"
+"Assets/Scripts/UI/Shop/Shop.cs"
+"Assets/Scripts/UI/Shop/WeaponView.cs"
 "Assets/Scripts/Weapons/Rifle.cs"
 "Assets/Scripts/Weapons/Weapon.cs"
 -langversion:9.0

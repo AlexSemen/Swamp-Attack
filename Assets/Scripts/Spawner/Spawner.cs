@@ -71,6 +71,13 @@ public class Spawner : MonoBehaviour, IBarChanged
     {
         _newEnemy = Instantiate(enemy, _transforms[UnityEngine.Random.Range(0, _transforms.Count)].position, Quaternion.identity);
         _newEnemy.Init(_player);
+        _newEnemy.Dying += GiveMoneyToPlayer;
+    }
+
+    private void GiveMoneyToPlayer(Enemy enemy)
+    {
+        _player.TakeMoney(enemy.Reward);
+        enemy.Dying -= GiveMoneyToPlayer;
     }
 }
 
