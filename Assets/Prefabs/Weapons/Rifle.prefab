@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: "\u0412\u0438\u043D\u0442\u043E\u0432\u043A\u0430"
-  _prise: 100
-  _isBuyed: 0
+  _prise: 0
+  _isBuyed: 1
   _sprite: {fileID: 21300000, guid: c0e3ec14dca271e49b34da672e61d1f3, type: 3}
   Bullet: {fileID: 3318189195937341485, guid: 0eeffec6819f2e143804d089e03d29fb, type: 3}

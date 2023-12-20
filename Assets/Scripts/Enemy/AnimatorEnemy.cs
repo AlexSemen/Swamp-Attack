@@ -14,4 +14,9 @@ public class AnimatorEnemy : MonoBehaviour
     {
         public const string Attack = "Attack";
     }
+
+    public static class Bool
+    {
+        public const string Victory = "Victory";
+    }
 }

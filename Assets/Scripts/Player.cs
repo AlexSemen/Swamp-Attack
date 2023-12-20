@@ -9,13 +9,14 @@ public class Player : MonoBehaviour, IBarChanged
     [SerializeField] int _health;
     [SerializeField] int _healthMax;
     [SerializeField] Transform _shootPoint;
-    [SerializeField] Weapon _weapon;
+    [SerializeField] List<Weapon> _weapons;
     [SerializeField] bool _isAttack;
 
     private Animator _animator;
+    private int _weaponNumber;
+    public Weapon Weapon { get; private set; }
 
     public event UnityAction<int, int> BarChanged;
-    //public event UnityAction<int> MoneyChanged;
 
     public int Money { get; private set; }
 
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour, IBarChanged
         _health = _healthMax;
         _isAttack = false;
         _animator = GetComponent<Animator>();
+        SetWeapon(0);
     }
 
     private void Start()
@@ -45,7 +47,7 @@ public class Player : MonoBehaviour, IBarChanged
 
     public void Shoot()
     {
-        _weapon.Shoot(_shootPoint);
+        Weapon.Shoot(_shootPoint);
     }
 
     public void TakeDamage(int damage)
@@ -77,5 +79,47 @@ public class Player : MonoBehaviour, IBarChanged
         {
             return false;
         }
+    }
+
+    public void NextWeapon()
+    {
+        if(_weaponNumber < _weapons.Count - 1)
+        {
+            SetWeapon(++_weaponNumber);
+        }
+        else
+        {
+            SetWeapon(0);
+        }
+    }
+
+    public void PrevWeapon()
+    {
+        if (_weaponNumber > 0)
+        {
+            SetWeapon(--_weaponNumber);
+        }
+        else
+        {
+            SetWeapon(_weapons.Count - 1);
+        }
+    }
+
+    private void SetWeapon(int weaponNumber)
+    {
+        if (Weapon != null)
+        {
+            _animator.SetBool(Weapon.boolParameterAnimator, false);
+        }
+
+        _weaponNumber = weaponNumber;
+        Weapon = _weapons[weaponNumber];
+
+        _animator.SetBool(Weapon.boolParameterAnimator, true);
+    }
+
+    public void AddWeapon(Weapon weapon)
+    {
+        _weapons.Add(weapon);
     }
 }

@@ -18,6 +18,8 @@ public class Bullet : MonoBehaviour
     private void Start()
     {
         _rigidbody2D.velocity = Vector2.left * _speed;
+
+        Destroy(gameObject, 10);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -42,6 +42,8 @@ public class Shop : MonoBehaviour
         {
             weapon.Buy();
 
+            _player.AddWeapon(weapon);
+            
             _textManey.text = _player.Money.ToString();
             
             return true;

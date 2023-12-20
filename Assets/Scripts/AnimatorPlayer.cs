@@ -13,4 +13,10 @@ public class AnimatorPlayer : MonoBehaviour
     {
         public const string Shoot = "Shoot";
     }
+
+    public static class Bool
+    {
+        public const string Rifle = "Rifle";
+        public const string UZI = "UZI";
+    }
 }
